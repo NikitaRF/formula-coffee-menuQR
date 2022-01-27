@@ -40,6 +40,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    min-height: 90px;
 }
 
 .swiper-slide__textBlock {
@@ -73,10 +74,10 @@
 
 @media screen and (max-width: 520px) {
     .swiper-slide__textTitle {
-        font-size: 12px;
+        font-size: 10px;
     }
     .swiper-slide__textBlock {
-        font-size: 10px;
+        font-size: 8px;
     }
 }
 
