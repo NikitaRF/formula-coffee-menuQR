@@ -80,6 +80,12 @@ body {
 .icon--instagram {
     background-image: url(./src/img/inst.svg);
 }
+.icon--facebook {
+    background-image: url(./src/img/FB.svg);
+}
+.icon--tripadvisor {
+    background-image: url(./src/img/TA.svg);
+}
 
 
 
