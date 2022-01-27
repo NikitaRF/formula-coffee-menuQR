@@ -58,7 +58,14 @@
     color: #502c1d;
     font-size: 14px;
     margin-top: 5px;
+    font-weight: bold;
 }
+
+.swiper-slide__textBlock div:last-child  {
+   font-weight: bold;
+   color: #502c1d;
+}
+
 .swiper-slide__textBlock p {
     margin: 0 0 10px 0;
 }
