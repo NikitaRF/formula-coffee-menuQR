@@ -69,10 +69,6 @@
     font-size: 12px;
 }
 
-.swiper-pagination {
-    display: none;
-}
-
 
 @media screen and (max-width: 520px) {
     .swiper-slide__textTitle {
