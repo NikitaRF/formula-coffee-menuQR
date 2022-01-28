@@ -61,6 +61,12 @@
     margin-top: 5px;
     font-weight: bold;
 }
+.swiper-slide__textBlock div p{
+    margin: 0;
+}
+.swiper-slide__textBlock div p:last-child {
+    margin-bottom: 5px;
+}
 
 .swiper-slide__textBlock div:last-child  {
    font-weight: bold;
