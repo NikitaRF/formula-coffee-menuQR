@@ -1,11 +1,16 @@
 @font-face {
+    font-family: "Rubik-Regular";
+    src: url("./src/fonts/Rubik-Regular.ttf") format("opentype");
+}
+@font-face {
     font-family: "Rubik-Medium";
     src: url("./src/fonts/Rubik-Medium.ttf") format("opentype");
 }
 @font-face {
-    font-family: "Rubik-Regular";
-    src: url("./src/fonts/Rubik-Regular.ttf") format("opentype");
+    font-family: "Rubik-Light";
+    src: url("./src/fonts/Rubik-Light.ttf") format("opentype");
 }
+
 
 html,
 body {
