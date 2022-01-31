@@ -49,6 +49,9 @@ body {
    margin: auto 0 0 0;
    color: #9fa09e;
 }
+.header__text:last-child {
+    margin: 3px 0 0 0 ;
+}
 .header__text--title {
     font-family: Rubik-Medium, sans-serif;
     color: #5d1e15;
