@@ -1,24 +1,12 @@
 @font-face {
     font-family: "Rubik-Medium";
-    font-style: normal;
-    font-weight: 400;
-    /* Браузер сначала попробует найти шрифт локально */
-    src: local("Rubik-Medium"),
-        /* Если не получилось, загрузит woff2 */
-    url("./src/fonts/Rubik-Medium.ttf") format("ttf")
-    /*    !* Если браузер не поддерживает woff2, загрузит woff *!*/
-    /*url("/fonts/roboto.woff") format("woff");*/
+    src: url("./src/fonts/Rubik-Medium.ttf") format("opentype");
 }
 @font-face {
     font-family: "Rubik-Regular";
     font-style: normal;
     font-weight: 400;
-    /* Браузер сначала попробует найти шрифт локально */
-    src: local("Rubik-Regular"),
-        /* Если не получилось, загрузит woff2 */
-    url("./src/fonts/Rubik-Regular.ttf") format("ttf")
-    /*    !* Если браузер не поддерживает woff2, загрузит woff *!*/
-    /*url("/fonts/roboto.woff") format("woff");*/
+    src: url("./src/fonts/Rubik-Regular.ttf") format("opentype");
 }
 
 html,
@@ -28,7 +16,7 @@ body {
 }
 body {
     background: #ffffff;
-    font-family: Rubik-Regular;
+    font-family: Rubik-Regular, sans-serif;
     font-size: 14px;
     color: #5d1e15;
     margin: 0;
@@ -64,7 +52,7 @@ body {
    color: #9fa09e;
 }
 .header__text--title {
-    font-family: Rubik-Medium;
+    font-family: Rubik-Medium, sans-serif;
     color: #5d1e15;
     font-size: 25px;
     margin-bottom: auto;
