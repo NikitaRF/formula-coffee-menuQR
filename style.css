@@ -10,6 +10,10 @@
     font-family: "Rubik-Light";
     src: url("./src/fonts/Rubik-Light.ttf") format("opentype");
 }
+@font-face {
+    font-family: "SybillaPro-Bold";
+    src: url("./src/fonts/SybillaPro-Bold.ttf") format("opentype");
+}
 
 
 html,
@@ -58,7 +62,7 @@ body {
     margin: 3px 0 0 0 ;
 }
 .header__text--title {
-    font-family: Rubik-Medium, sans-serif;
+    font-family: SybillaPro-Bold, sans-serif;
     color: #5d1e15;
     font-size: 25px;
     margin-bottom: auto;
@@ -115,7 +119,7 @@ body {
 
 
 .menuTitle {
-    font-family: Rubik-Medium;
+    font-family: SybillaPro-Bold;
     font-size: 20px;
     color: #5d1e15;
     border-bottom: 1px solid #eea90b;
